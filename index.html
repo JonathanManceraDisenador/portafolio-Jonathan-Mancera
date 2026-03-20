@@ -2,9 +2,315 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jonathan Mancera - </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div>Esta es mi pagina personal</div>
+    <header>
+        <div>
+            <a href="index.html">
+                <img src="img/logoNavbar.png" alt="">
+            </a>
+        </div>
+
+        <nav>
+            <a href="index.html" id="home">Home</a>
+            <div id="btn-proyectos">
+                <p>Proyectos</p>
+            </div>
+            <div id="btn-lenguaje"><p>Lenguaje</p></div>
+            <ul class="listado-proyectos">
+                <!--
+                <li><a href="">Outstanding Fox Production</a></li>
+                <li><a href="">El Panda Hama</a></li>
+                -->
+                <a href=""><li>Selia360</li></a>
+            </ul>
+            <ul class="listado-lenguajes" >
+                <li>Español</li>
+                <li>English</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!---Foto Portada-->
+    <section id="imagen-portada">
+        <picture class="carousel-item active">
+            <source media="(max-width: 600px)" srcset="img/BannerPrincipalSM.jpg">
+            <img src="img/BannerPrincipalLG.jpg" alt="">
+        </picture>
+    </section>
+    <!--Presentación-->
+    <div class="separador"></div>
+    <section id="bio">
+        <img src="img/FotoJonathan.jpg" alt="">
+        <div>
+            <p>Soy diseñador grafico con ingles nivel B2 y experiencia en agencias publicitarias donde
+                he participado en la creación de material BTL para campañas de marcas como 
+                Hugo Boss ,Marc Jacobs, Carolina Herrera, entre otras. Tengo experiencia en 
+                programación HTML, CSS y Javascript, así como diseño en Illustrator, Photoshop, 
+                Indesign, Figma Priemier  y Visual Studio Code. Soy orientado al aprendizaje, 
+                perseverante y adaptable. Actualmente estoy en búsqueda activa de trabajo en 
+                posiciones como diseñador grafico, diseñador web jr o diseñador UX/UI en agencias 
+                publicitarias o startup. Tengo 34 años y habito actualmente en la Ciudad de México.  
+            </p>
+            <div class="ul">
+                <div class="li">
+                    <img src="img/simbolo-cambridge.png" alt="">
+                    <p>Certificado Ingles Nivel B2 expedido por Cambridge English (2024)</p>
+                </div>
+                <div class="li">
+                    <img src="img/simbolo-udemy.png" alt="">
+                    <p>Certificado en Copywrite por parte de Udemy (2021)</p>
+                </div>
+                <div class="li">
+                    <img src="img/simbolo-udemy.png" alt="">
+                    <p>Certificación en Diseño Web por parte de Udemy (2020)</p>
+                </div>
+                <div class="li">
+                    <img src="img/simbolo-platzi.png" alt="">
+                    <p>Certificado en UI/UX por parte de Platzi (2019)</p>
+                </div>
+                <div class="li">
+                    <img src="img/simbolo-uam.png" alt="">
+                    <p>Licenciado en Diseño de la Comunicación Grafica - UAM – AZCAPOTZALCO (2016)</p>
+                </div>
+                <div class="li">
+                    <img src="img/simbolo-ipn.png" alt="">
+                    <p>Técnico en Diseño Gráfico Digital - Politécnico Nacional – CECyT 2 “Miguel Bernard” (2012)</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Hardskills-->
+    <div class="separador"></div>
+    <section id="hard-skills">
+        <p class="titulo">Hard Skills</p>
+        <div class="row-wrap">
+            <div class="card-skill">
+                <img src="img/identidad-simbolo.png" alt="">
+                <p>Identidad Gráfica</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/editorial-simbolo.png" alt="">
+                <p>Diseño Editorial</p>
+            </div>
+             <div class="card-skill">
+                <img src="img/senaletica-simbolo.png" alt="">
+                <p>Señaletica</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/embalaje-simbolo.png" alt="">
+                <p>Diseño de envase y embalaje</p>
+            </div>
+             <div class="card-skill">
+                <img src="img/publicidad-simbolo.png" alt="">
+                <p>Publicidad</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/multimedia-simbolo.png" alt="">
+                <p>Multimedios</p>
+            </div>
+             <div class="card-skill">
+                <img src="img/guionismo-simbolo.png" alt="">
+                <p>Guionismo</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/copywrite-simbolo.png" alt="">
+                <p>Copywrite</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/web-simbolo.png" alt="">
+                <p>Diseño Web</p>
+            </div>
+        </div>
+        <div class="row-wrap">
+            <div class="card-skill">
+                <img src="img/html-simbolo.png" alt="">
+                <p>HTML</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/css-simbolo.png" alt="">
+                <p>CSS</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/js-simbolo.png" alt="">
+                <p>JavaScript</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/bootstrap-simbolo.png" alt="">
+                <p>Bootstrap</p>
+            </div>
+        </div>
+    </section>
+    <!--Softskills-->           
+    <section id="soft-skills">
+        <p class="titulo">Programas y Soft Skills</p>
+        <div class="row-wrap">
+            <div class="card-skill">
+                <img src="img/photoshop-simbolo.png" alt="">
+                <p>Photoshop</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/illustrator-simbolo.png" alt="">
+                <p>Illustrator</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/indesig-simbolo.png" alt="">
+                <p>InDesign</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/premier-simbolo.png" alt="">
+                <p>PremierPro</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/figma-simbolo.png" alt="">
+                <p>Figma</p>
+            </div>
+        </div>
+        <div class="row-wrap">
+            <div class="card-skill">
+                <img src="img/word-simbolo.png" alt="">
+                <p>Word</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/powerpoiunt-simbolo.png" alt="">
+                <p>PowerPoint</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/excel-simbolo.png" alt="">
+                <p>Excel</p>
+            </div>
+        </div>
+        <div class="row-wrap">
+            <div class="card-skill">
+                <img src="img/proactivo-simbolo.png" alt="">
+                <p>Proactivo</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/autonomo-simbolo.png" alt="">
+                <p>Autónomo</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/persistente-simbolo.png" alt="">
+                <p>Persistente</p>
+            </div>
+            <div class="card-skill">
+                <img src="img/adaptable-simbolo.png" alt="">
+                <p>Adaptable</p>
+            </div>            
+        </div>
+    </section>
+    <!--Habilidades-->
+    <div class="separador"></div>
+    <section id="habilidades">
+        <div class="contenedor-habilidades">
+            <div class="portada">
+                <img src="img/web-simboloNG.png" alt="">
+                <p class="titulo">Diseño Web</p>
+            </div>
+            <div class="contenido">
+                <div class="contenedor-parrafos">
+                    <p> Con la llegada de las redes sociales y los dispositivos móviles la revolución del diseño web se ve representada en una compleja red de 
+                        comunicación donde el usuario desea tener una gama de opciones al momento de obtener información, consumir un producto o un servicio.</p>
+                    <p>Esto lleva a los diseñadores a generar nuevas experiencias que se definan por sí mismas, es ahí donde entra el diseño web del brazo con 
+                        el UI (diseño de interfaz) y el UX (diseño de experiencia) para que al visitar un sitio web este no solo sea un lugar más si no toda una 
+                        experiencia que sea digna de compartir.</p>
+                
+                </div>
+                <div id="imgs_disenoWeb" class="contenedor-imgs">
+                    <img src="img/pandaHama-Desktop.png" alt="" class="desktop">
+                    <img src="img/pandaHama-mobil.jpg" alt="" class="mobile">
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor-habilidades">
+            <div class="contenido">
+                <div class="contenedor-parrafos">
+                    <p>Cuando trabajo en la identidad de una corporación me concentro en representar de manera clara los principios, valores y actividades de dicha empresa. </p>
+                    <p>Me gusta experimentar con diversas texturas visuales, pero me adapto a las necesidades e indicaciones de los clientes. </p>
+                    <p>Aprecio mucho sus comentarios, así como la pasión que ellos mismos sienten por su negocio y eso me gusta que se vea plasmado en sus logotipos, 
+                        papelería y los elementos donde la identidad corporativa se verá representada.</p>
+                </div>
+                <div id="imgs_identidadCorporativa" class="contenedor-imgs">
+                    <img src="img/collage-beaterbyters.gif" alt="">
+                </div>
+            </div>
+            <div class="portada">
+                <img src="img/identidad-simboloNG.png" alt="">
+                <p class="titulo">Identidad Corporativa</p>
+            </div>
+        </div>
+
+        <div class="contenedor-habilidades">
+            <div class="portada">
+                <img src="img/redes-simboloNG.png" alt="">
+                <p class="titulo">Redes Sociales</p>
+            </div>
+            <div class="contenido">
+                <div class="contenedor-parrafos">
+                    <p>En los últimos años se ha visto la importancia de las redes sociales a la hora de compartir el contenido creativo a las masas 
+                        y esto solo se ha incrementado durante el 2020. </p>
+                    <p>Por esto mismo mi interés en compartir de manera entendible, agradable y fácil los mensajes, promociones, 
+                        productos y servicios en las redes son mi prioridad</p>
+                    <p>Respetando el uso de la identidad gráfica, así como abrazando la temática que cada uno maneja, mi ideal es permitir que el mensaje 
+                        se pueda compartir y entender de manera natural, así como resaltar sin perderse en un medio que puede saturarse fácilmente.</p>
+                </div>
+                <div id="imgs_redesSociales" class="contenedor-imgs">
+                    <div class="grupo">
+                        <img src="img/facebook-1.jpg" alt="" class="facebook">
+                        <img src="img/facebook-2.jpg" alt="" class="facebook">
+                        <img src="img/facebook-3.jpg" alt="" class="facebook">
+                        <img src="img/facebook-4.jpg" alt="" class="facebook">
+                        <img src="img/facebook-5.jpg" alt="" class="facebook">
+                        <img src="img/facebook-6.jpg" alt="" class="facebook">
+                        <img src="img/facebook-7.jpg" alt="" class="facebook">
+                        <img src="img/facebook-8.jpg" alt="" class="facebook">
+                        <img src="img/facebook-9.jpg" alt="" class="facebook">
+                    </div>
+                    <div aria-hidden class="grupo">
+                        <img src="img/facebook-1.jpg" alt="" class="facebook">
+                        <img src="img/facebook-2.jpg" alt="" class="facebook">
+                        <img src="img/facebook-3.jpg" alt="" class="facebook">
+                        <img src="img/facebook-4.jpg" alt="" class="facebook">
+                        <img src="img/facebook-5.jpg" alt="" class="facebook">
+                        <img src="img/facebook-6.jpg" alt="" class="facebook">
+                        <img src="img/facebook-7.jpg" alt="" class="facebook">
+                        <img src="img/facebook-8.jpg" alt="" class="facebook">
+                        <img src="img/facebook-9.jpg" alt="" class="facebook">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Proyectos-->
+    <div class="separador"></div>
+    <section id="proyectos">
+        <p class="titulo">Proyectos</p>
+        <div class="listado-h">
+            <a href="https://www.facebook.com/profile.php?id=100063201131741" target="_blank"><img src="img/logo-outstanding.png" alt="" width="200px"></a>
+            <a href="https://jonathanmanceradisenador.github.io/El-Panda-Hama/index.html" target="_blank"> <img src="img/logo-panda.png" alt="" width="260px"></a></a>
+            <a href="https://www.youtube.com/watch?v=H-Lgc6JkLAA"><img src="img/logo-selia360.png" alt="" width="400px"></a>
+    
+        </div>
+    </section>
+    <!--Footer-->
+    <section id="contacto">
+        <p class="titulo">Contacto:</p>
+        <div class="red-social">
+            <img src="img/logo-linkdn.png" alt="">
+            <a href="https://www.linkedin.com/in/jonathanmancera-disenografico/" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+    <footer>
+		<p> © 2020-2026 Cesar Jonathan Mancera Cisneros</p>
+	</footer>
+
+<script type="module" src="app.js"></script>
+<script type="module" src="languageManager.js"></script>
+<script type="module" src="navbar.js"></script>
 </body>
 </html>
