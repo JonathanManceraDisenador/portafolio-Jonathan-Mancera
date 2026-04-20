@@ -240,6 +240,7 @@ footer p {
             gap: calc(var(--margen-principal)/8);
             img{
                 height: 36px;
+                width: auto;
             }
         }
 
@@ -324,6 +325,9 @@ footer p {
 }
 
 /*---------------------------------Celular vertical----------------------------------------*/
+
+
+
 @media screen and (max-width: 720px){
 
     header{
@@ -341,10 +345,11 @@ footer p {
 
 
     #datosProyecto{
+        width: 100%;
         grid-template-columns: 1fr;
-        img{
-            width: 20%;
-        }
+            .portada{
+               width: 95%;
+            }
         .descripcion{
             padding: var(--margen-principal);
             .herramientas{
