@@ -352,9 +352,6 @@ footer p {
         h1{
             font-size: 30px;
         }
-            .portada{
-               width: 50%;
-            }
         .descripcion{
             padding: var(--margen-principal);
             .herramientas{
