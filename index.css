@@ -136,6 +136,7 @@
     background-repeat: repeat;
     background-image:url('img/patron-lineas.png');
     mix-blend-mode: color-burn;
+    will-change: transform;
     background-size: 100px 100px, auto; /* Ajusta el tamaño del patrón */
     height: 100%;
     opacity: .1; 

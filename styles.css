@@ -329,7 +329,7 @@ footer p {
     header{
         p{
             text-align: center;
-            font-size: 18px;
+            font-size: 16px;
         }
         ul{
             top: 45px;
@@ -343,7 +343,7 @@ footer p {
     #datosProyecto{
         grid-template-columns: 1fr;
         img{
-            width: 100%;
+            width: 20%;
         }
         .descripcion{
             padding: var(--margen-principal);
