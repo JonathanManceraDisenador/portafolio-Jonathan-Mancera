@@ -327,6 +327,10 @@ footer p {
 @media screen and (max-width: 720px){
 
     header{
+        p{
+            text-align: center;
+            font-size: 18px;
+        }
         ul{
             top: 45px;
         }
@@ -338,6 +342,9 @@ footer p {
 
     #datosProyecto{
         grid-template-columns: 1fr;
+        img{
+            width: 100%;
+        }
         .descripcion{
             padding: var(--margen-principal);
             .herramientas{
