@@ -7,7 +7,7 @@
              ["Lenguaje","Language"],
 
             ["Soy diseñador grafico con ingles nivel B2 y experiencia en agencias publicitarias donde he participado en la creación de material BTL para campañas de marcas como Hugo Boss ,Marc Jacobs, Carolina Herrera, entre otras. Tengo experiencia en programación HTML, CSS y Javascript, así como diseño en Illustrator, Photoshop, Indesign, Figma Priemier y Visual Studio Code. Soy orientado al aprendizaje, perseverante y adaptable. Actualmente estoy en búsqueda activa de trabajo en posiciones como diseñador grafico, diseñador web jr o diseñador UX/UI en agencias publicitarias o startup. Tengo 34 años y habito actualmente en la Ciudad de México.",
-            "I’m a Graphic Designer with B2 Englis Level with experience in Advertising agencies where I participated in the creation of BTL material for adds and campaigns for brandings like Hugo Boss, Marc Jacobs, Carolina Herrera, among others. I have experience with HTML, CSS & JavaScript and with design programs like Illustrator, Photoshop. InDesign, Figma & Premier. I consider myself an “oriented to the learning” person, adaptable and persistent. I am currently looking for work in positions like graphic designer, web designer Jr. or UI/UX designer in advertising agencies or startups. I’m 34 and I live in Mexico City."],
+            "I’m a Graphic Designer with B2 English Level with experience in Advertising agencies where I participated in the creation of BTL material for adds and campaigns for brandings like Hugo Boss, Marc Jacobs, Carolina Herrera, among others. I have experience with HTML, CSS & JavaScript and with design programs like Illustrator, Photoshop. InDesign, Figma & Premier. I consider myself an “oriented to the learning” person, adaptable and persistent. I am currently looking for work in positions like graphic designer, web designer Jr. or UI/UX designer in advertising agencies or startups. I’m 34 and I live in Mexico City."],
 
              ["Certificado Ingles Nivel B2 expedido por Cambridge English (2024)",
              "B2 Certificate – Cambridge English"],
@@ -76,21 +76,168 @@
 
               ["Proyectos","Projects"],
             ["Contacto:","Contact:"],
-             ["© 2020-2026 Cesar Jonathan Mancera Cisneros","© 2020-2026 Cesar Jonathan Mancera Cisneros"],
+             ["© 2020-2026 Cesar Jonathan Mancera Cisneros","© 2020-2026 Cesar Jonathan Mancera Cisneros"]
 
-             ["Inicio","Home"],
-            ["Inicio","Home"],
-             ["Inicio","Home"],
-            ["Inicio","Home"],
-              ["Inicio","Home"],
-            ["Inicio","Home"],
-             ["Inicio","Home"],
-            ["Inicio","Home"],
-             ["Inicio","Home"],
-            ["Inicio","Home"],
-             ["Inicio","Home"],
-            ["Inicio","Home"]
+
         ]
+    ],
+    "selia360":[
+      [
+          ["Proyectos","Projects"],             
+          ["Lenguaje","Language"],
+
+        ["Herramienta hecha a la medida para la empresa “De la Paz Costemalle”. Sistema en Línea para auditorias donde se previsualizan, organizan y llevan a cabo todos los pasos de un proceso de auditoría, desde la inscripción de usuarios, captura de datos de clientes, delegación de tareas y organización de documentos.","Custom-built management tool for the company 'De la Paz Costemalle.' An online audit management system where every stage of the audit process can be viewed, organized, and completed — from user registration and client updates to task assignment and document management."],
+        ["Clasificación:","Classification:"],
+        ["B2B, ERP, DMS, ECM","B2B, ERP, DMS, ECM"],
+        ["Herramientas usadas:","Tools:"],
+        ["Problemática","Problem"],
+        ["Previamente, la organización y delegación del proceso de auditoria se realizaba por medio de documentos, así también la captura de datos se daba en documentos individuales y esto no permitía un re uso de la información en futuras auditorias o cuando uno de los integrantes de una realizaba un cambio no había algún tipo de notificación ni centralización de la información. No había un registro claro de cómo o cuando se había iniciado el proceso de auditoria ni cuando se resolvían las tareas. Además, los procesos matemáticos se realizaban en Excel y estos no permitían la conexión entre documentos, si se editaba una matriz los otros debían editarse a mano. Todos estos problemas traían consigo pérdida de tiempo, de información y confusiones en todo el proceso.","Previously, the audit process was organized and assigned using Word and Excel files. Data entry was also handled through separate individual documents, which made it difficult to reuse information for future audits or update data consistently across files. There was no centralized system, no effective notification flow, and no clear record of when an audit started or when tasks were completed. In addition, most calculations were done in Excel, which made it difficult to connect data across related documents. If the main file was edited, the rest often had to be updated manually one by one. All of these issues led to wasted time, lost information, and confusion throughout the entire audit process."],
+        ["Investigación","Research"],
+        ["Para poder entender los problemas que se planteaban, decidí investigar a grandes rasgos las características de lo que es una auditoria, así como de los pasos a seguir, tanto los generales como los que llevaba a cabo “de la Paz Costemalle”. Además, debido a las características requeridas para la organización de la información era necesario investigar los conceptos de Gestor de Documentos, ERP  (Enterprise Resource Planning)  y ECM (Enterprise Content Manager) ya que las características de estos sistemas iban a ayudar a definir las funciones del sistema final.","To better understand the problem, I first researched the general characteristics of audits, as well as the different stages of the audit process — both in general terms and specifically within the workflow used by “De la Paz Costemalle.”I also researched the requirements for organizing large amounts of operational and document-based information. This led me to explore the concepts of ERP (Enterprise Resource Planning) and ECM (Enterprise Content Management). Elements from these systems helped define the functional structure of the final solution."],
+        ["El siguiente paso fue analizar el modelo o arquitectura de diferentes sistemas cuyas características coincidan de manera parcial con las necesidades del cliente.","The next step was to analyze the structure of various systems whose characteristics matched the client's requirements"],
+        ["Solución","Solution"],
+        ["Para resolver muchas de las problemáticas dentro del modelo antiguo, se tomó la decisión de organizar las auditorias en forma de módulos de información. Empezando por los usuarios del sistema que se conectan a clientes (que contienen la información general y especifica) de estos se derivan proyectos que están comprendidos de tareas que se delegan a usuarios. Los documentos se pueden adjuntar a cualquiera de estos módulos, al adjuntarlo se enlaza un documento único, así si se edita este no se duplica la información, solo se plasma en los lugares donde es requerido. Esto centraliza la información evitando duplicados, facilidad de delegar tareas a usuarios específicos, saber cuánto tiempo han llevado en realizar dicha tarea, que proyecto corresponde a que cliente y que información de este se usara para esta auditoría y como afectara a las futuras.","To solve most of the issues in the previous workflow, I designed the platform around a modular information structure. The system is built around users, who are connected to clients containing both general and specific information. From there, projects are created, and each project is made up of tasks assigned to users. Documents can be attached to any module within the system. Once attached, each file is linked to a unique document record, allowing information to remain centralized, traceable, and easier to manage across the audit process."],
+  
+        ["Organización", "Organization"],["Fácil Previsualización","Clear Visibility"],["Evitar Duplicados","Avoid Data Duplication"],["Centralizar procesos","Process Centralization"],["Iteración de información","Information Reusability"],
+
+        ["Must","Must"],
+        ["Evitar Duplicados","Prevent Data Duplication"],["Añadir y eliminar módulos","Add and Remove Modules"],
+        ["Respaldo para revisión y edición posterior","Backup Support for Review and Editing"],["Administración y delegación de trabajo","Task Assignment"],
+        ["Automatización de Balance","Balance automatization"],
+
+        ["Should","Should"],
+        ["Nivel de riesgo representado como grafica","Visual Representation of Risk Levels"],["Cronograma interactivo de actividades","Interactive Project Timeline"],
+        ["Guias para diferentes etapas","Q&A for Different Areas"],["Incluir formatos en las áreas y que se actualicen","Continuous Updating of Formats in Their Corresponding Sections"],
+        ["Información requerida por parte del cliente","Client Data Requirements Checklist"],
+
+        ["Nice","Nice"],
+        ["Llenado automático","Auto-Fill Functionality"],["Proceso de muestreo automático","Automatic Sampling"],
+        ["Edición de documentos en vivo en la plataforma","Live Document Editing"],["Auditoria en grupo","Group Audit Management"],
+        ["Agenda, calendario","Scheduling / Calendar View"],
+        
+        ["Boceto","Sketch"],["Baja Fidelidad","Low Fidelity"],["Media Fidelidad","Mid-fidelity"],["Alta Fidelidad","High Fidelity "], 
+
+        ["El bocetaje solo tiene la intención de plasmar de manera rápida y comprensiva los componentes generales que abarcaran el sistema. Esto para medir el tamaño y alcance del sistema por completo. Básicamente es ver la imagen completa sin concentrarse demasiado en los detalles.",
+        "The purpose of sketching is to provide a high-level overview of the system’s main elements. It helps define the overall scope by offering a quick view of the “big picture” without focusing too much on details."],
+        ["A pesar de que los textos finales no estaban del todo definidos, el tamaño promedio de la tipografía fue seleccionada desde un principio por lo cual su posición en el espacio no presentaba una amenaza para el diseño final. ",
+        "Even though the final text content was not defined, typography sizes were established early on. This ensured that the placement of placeholder text did not affect the final design."],
+        ["La decisión de usar (en su mayoría) colores neutros es con la intención de que la interacción sea lo más pura posible ya que este iba a ser el escenario en el cual se pondría posteriormente a prueba todas las interacciones básicas",
+        "I decided to use neutral colors to keep the interactions as clear and direct as possible, since this stage focused on testing basic user interactions."],
+        ["El acomodo de clientes podía ser diferente según lo elegido: Alfabéticamente, por último, inscrito, por estado de último proyecto o por estado actual del cliente",
+        "Clients can be sorted using the following criteria: alphabetical order, reverse alphabetical order, status of the latest project, and current client status."],
+
+        ["Tras realizar el diseño de los Wireframes hasta los de media fidelidad, fue entonces que se realizaron pruebas de usabilidad para poner a prueba la ergonomía, claridad conectividad y opciones que se habían integrado a la plataforma hasta ese punto.",
+        "After completing the wireframes up to mid-fidelity, usability testing was conducted to evaluate ergonomics, clarity of navigation, and the effectiveness of the implemented features."],
+
+        ["Se realizaron pruebas a 10 integrantes de la firma (de diferentes jerarquías) y se les dio a realizar 5 a 7 diferentes tareas. Se cronometrizo las pruebas y se apuntó las veces que ayuda externa fue necesaria.",
+        "Ten usability tests were conducted with employees from different roles. Each participant was assigned between five and seven tasks. Task completion time was recorded, along with instances where assistance was required."],
+  
+        ["Al finalizar todas las preguntas, se pidió una reseña de la plataforma y la libertad de explorar la plataforma de manera libre para experimentar todas sus funcionalidades. ",
+        "After completing all tasks, participants were asked to review the platform and were given the freedom to explore its features."],
+
+        ["Esta experiencia me permito poner a prueba el diseño de interfaz y experiencia de usuario sin invasión por colores de la identidad grafica de la plataforma. Al ponerlo a prueba descubrí que los conceptos básicos adaptados e inspirados en otras plataformas ayudaron a que las tareas predefinidas se pudieran realizar de manera directa y comprensiva. Sin embargo, también fue requerido algo de flexibilidad, ya que en un intento de que todo tuviera un diseño cohesivo los diferentes módulos carecían de individualidad y tendían a ser confusos, tome la decisión de darle un diseño único a cada uno y así la exploración de diversos módulos fue clara y concisa.",
+        "This allowed me to test user interface and user experience design without the visual distraction of color. I found that references from other platforms helped guide the design of core tasks, making them more intuitive and easier to understand.However, some flexibility was needed. In trying to create a highly cohesive system, the different modules began to lose their individuality and became harder to distinguish. To address this, I introduced more distinctive visual treatments for each module, improving clarity and navigation between them."],
+
+        ["8 meses","8 months"],
+
+        ["Diseño e implementación","Design and implementation"],
+
+        ["100%","100%"],
+
+        ["Integración de toda la oficina antes del primer año","Employee adoption across the organization within the first year"],
+
+        ["+35%","+35%"], 
+
+        ["Incremento de productividad en el primer año","Increase in productivity during the first year of implementation"],
+
+        ["Si deseas ver una infografía con todo el proceso desarrollado, da clic aquí y visita mi Behance.",
+        "If you’d like to explore a more detailed infographic of the process (in Spanish), you can view it on Behance."],
+
+        ["Infografía en Behance.","Go to Behance"], 
+
+        ["Alternativamente, entra a este link para ver una video guía de todo el sistema.","Alternatively, you can watch a video tour of the system (in Spanish) on YouTube."],
+
+        ["Video guía en Youtube","Go to youtube"], 
+
+        ["Proyectos","Projects"],
+        ["Contacto:","Contact:"],
+        ["© 2020-2026 Cesar Jonathan Mancera Cisneros","© 2020-2026 Cesar Jonathan Mancera Cisneros"]
+
+      ]
+    ],
+
+    "OUTSTANDINGFOX":[
+      [
+        ["Proyectos","Projects"],
+        ["Lenguaje","Language"],
+        ["Startup cuyo propósito es unir las capacidades del diseño gráfico, programación, mantenimiento de computadoras y marketing para proporcionarle al cliente una experiencia completa en la creación de sus empresas. ",
+        "A startup focused on combining graphic design, programming, PC maintenance, and marketing services to provide clients with a comprehensive solution for launching and growing new businesses."],
+        ["Clasificación:","Classification:"],
+        ["Startup, identidad gráfica, redes sociales ",
+        "Startup, branding, social media"],
+        ["Herramientas usadas:","Tools:"],
+
+        ["Problemática","Problem"],
+        ["La empresa tenía poco tiempo de haberse lanzado, tenían una identidad gráfica, pero no tenían un plan a largo plazo para marketing o uso de redes sociales (querían esperar a mejorar su marca para poderla lanzar en línea).",
+        "The company had been launched a few months before I joined. Although a basic brand identity was already in place, there was no long-term marketing strategy, nor an active social media presence. The team had decided to delay their online launch until the branding felt more polished."],
+        ["Solución","Solution"],
+        ["Se dio una propuesta alternativa a la identidad grafica de la empresa y posteriormente se planteó un programa de publicaciones semanales que invitaran a usuarios a interactuar con la página de Facebook (principalmente) apelando no solo al consumo del producto si no a la expresión y conexión con los valores y creencias de la empresa.",
+        "A refined branding direction was proposed to better align with the company’s vision. Following this, a weekly social media strategy was developed to encourage user interaction on their Facebook page. The content focused not only on promoting services, but also on communicating the company’s values and building a stronger connection with its audience."],
+
+        ["La base para el diseño fue el nombre de la empresa (Fox o zorro) y la variedad de servicios que esta presta. Debido a su visión la cual habla del trabajo colaborativo de diversas disciplinas , tome la decisión de representar eso con las diversas caras y tonos de naranja, la selección de color fue cuidadosa para generar una armonía, pero fue color naranja ya que ese es el color característico de la especie más popular de los Vulpes vulpes o zorros.",
+        "The design was based on the company name, “Fox,” and the wide range of services it offers. To reflect its multidisciplinary and collaborative approach, the visual identity incorporates multiple facets and shades of orange. The color palette was carefully selected to create visual harmony, while also referencing the natural tones of Vulpes vulpes (the red fox), reinforcing the brand concept."],
+
+        ["El margen azul fue para dar un contraste con la selección del color naranja. Este contraste es el clásico encontrado en el circulo cromático.",
+        "A blue accent was introduced to create contrast against the predominantly orange palette. This combination is based on complementary colors from the color wheel, enhancing visual balance and readability."],
+
+        ["Las diferentes caras de color dan la ilusión de una tridimensionalidad, esto hace alusión al hecho de que la empresa tiene una visión más realista y solida sobre como apoyar a un negocio desde lo grafico hasta lo mecánico.",
+        "The segmented design of the fox’s face creates a subtle 3D effect, symbolizing the company’s vision of supporting clients from multiple angles — from graphic design to technical services such as PC building and repair."],
+
+        ["La tipografía fue seleccionada ya que por su diseño proviene de la tipografía usada en la máquina virtual de las computadoras, esto refleja la naturaleza digital de la empresa.",
+        "The typography was selected because it resembles system fonts commonly found in computer interfaces, reinforcing the company’s digital and technical identity."],
+
+        ["Antes de su aprobación se plasmó en diferentes aplicaciones como lo fueron una variedad de papelería y aplicaciones de merchandising como lo son tazas y termos.",
+        "Before final approval, the branding was applied across multiple use cases, including office stationery and merchandise such as mugs and thermoses, to evaluate its consistency and versatility."],
+
+        ["Al ver que estas aplicaciones fueron exitosas, la identidad final fue aprobada y se diseñó el manual de identidad, el cual incluía los usos correctos, indebidos, registros de color y la tipografía. ",
+        "Once approved, a brand identity manual was developed. This document outlined correct usage guidelines, prohibited applications, color specifications, and typography standards."],
+
+        ["Para las redes sociales se aplicaron 4 diferentes tipos de estrategia.",
+        "Four different strategies were implemented for social media:"],
+
+        ["La primera consto de presentar los servicios disponibles por medio de resultados. Empresas que ya habían sido ayudadas y presentar sus resultados (identidad de imagen, estrategias de marketing, resultados consiguientes) esto para presentar un historial de éxito y así brindar confianza en futuros clientes. ",
+        "The first strategy focused on presenting the company’s services through real client outcomes. Case studies and benchmarks from previous projects were shared alongside the strategies used, highlighting success stories and building trust with potential clients."],
+
+        ["El segundo fue un acercamiento al cliente potencial por el lado más humano, utilizando la comedia y los “memes” se hacían chistes sobre el proceso de diseño y de programación. En esta etapa se tomó la decisión de generar una mascota que explicara y conectara con el público.",
+        "The second strategy aimed to connect with potential clients on an emotional level. Humor, memes, and relatable content about the challenges of design and programming were used to engage the audience. As part of this approach, I designed a mascot to visually represent the tone and message of the content, helping strengthen audience connection."],
+
+        ["En la tercera estrategia se apeló a la emoción al usar frases motivadoras y citas de famosos que coincidieran con la visión de OUTSTANDING FOX PRODUCTION sobre la creatividad y el apoyo entre todos. ",
+        "The third strategy focused on inspiration and self-motivation. Popular quotes aligned with the company’s values — creativity, collaboration, and mutual support — were used to connect with the audience on a more personal level."],
+        
+        ["Finalmente, en la cuarta parte de la estrategia se presentaron diagramas hablando de diversos temas, estos diagramas hacían un juego visual entre sus partes y el acomodo que permite Facebook. Una gran variedad de temas se tocó en esta etapa para brindar más confianza sobre el conocimiento de estos al cliente, así como una visión rápida al proceso al cual ellos también entrarían. ",
+        "The fourth strategy focused on sharing diagram-based content that covered a wide range of topics. These visuals were designed to take advantage of Facebook’s image layout, creating engaging compositions through the arrangement of multiple posts. This approach allowed complex ideas to be presented in a clear and visually appealing way, helping build trust with the audience while also offering a quick overview of different processes."],
+
+        ["+20%",
+        "+20%"],
+        ["Aumento de seguimiento en redes sociales. ",
+        "Increase in social media following"],
+
+        ["100% ",
+        "100%"],
+        ["Total satisfacción de los jefes sobre la actualización de identidad grafica. ",
+        "Satisfaction from stakeholders with the new benchmarks"],
+
+        ["OUTSTANDING FOX PRODUCTION sigue en funcionamiento y los resultados de la campaña pueden observarse en su página de Facebook en el siguiente link:",
+        "OUTSTANDING FOX PRODUCTION is still active, and the results of the campaign can be viewed on their Facebook page at the following link."],
+
+        ["Link de Facebook",
+        "Go to Facebook Page"], 
+
+        ["Proyectos","Projects"],
+        ["Contacto:","Contact:"],
+        ["© 2020-2026 Cesar Jonathan Mancera Cisneros","© 2020-2026 Cesar Jonathan Mancera Cisneros"]
+
+      ]
     ]
 }
 

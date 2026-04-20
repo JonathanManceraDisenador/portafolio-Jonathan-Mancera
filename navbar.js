@@ -6,10 +6,10 @@ var listadoLenguajes = document.querySelector('.listado-lenguajes')
 
 
 btnProyectos.addEventListener('click', e => {
-    document.querySelector("#proyectos").scrollIntoView({ behavior: 'smooth' });
-    window.history.pushState("", document.title, window.location.pathname + window.location.search);
+    //document.querySelector("#proyectos").scrollIntoView({ behavior: 'smooth' });
+    //window.history.pushState("", document.title, window.location.pathname + window.location.search);
     
-    //verContenedor(listadProyectos,listadoLenguajes)
+    verContenedor(listadProyectos,listadoLenguajes)
 })
 btnLenguajes.addEventListener('click', e => {
     verContenedor(listadoLenguajes,listadProyectos)
