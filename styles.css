@@ -354,10 +354,9 @@ footer p {
         }
         .descripcion{
             padding: var(--margen-principal);
-            .herramientas{
+            .clasificacion,.herramientas{
                 flex-direction: column;
             }
-
         }
     }
 

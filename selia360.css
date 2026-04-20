@@ -477,9 +477,11 @@ section{
         .carrete{
             grid-template-columns: 1fr 0fr;
             .imagenes{
+                height: 600px;
                 img{
-                    height: auto;
                     width: 100%;
+                    height: 100%;
+                    object-fit: contain;
                 }
             }
         }
