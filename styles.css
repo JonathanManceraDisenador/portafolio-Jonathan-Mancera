@@ -107,6 +107,7 @@ nav{
 /*-----------------------------proyectos-------------------------------------*/
 
 #proyectos{
+
     position: relative;
     padding: var(--margen-principal) calc(var(--margen-principal)*2.25);
     background-color: var(--gris);
@@ -238,6 +239,7 @@ footer p {
             display: flex;
             flex-direction: row;
             gap: calc(var(--margen-principal)/8);
+            flex-wrap: wrap;
             img{
                 height: 36px;
                 width: auto;
@@ -347,6 +349,9 @@ footer p {
     #datosProyecto{
         width: 100%;
         grid-template-columns: 1fr;
+        h1{
+            font-size: 30px;
+        }
             .portada{
                width: 50%;
             }
@@ -361,7 +366,7 @@ footer p {
 
       #proyectos{
         padding: var(--margen-principal) 0;
-        
+   
         .titulo{
             padding-bottom: 0;
         }
