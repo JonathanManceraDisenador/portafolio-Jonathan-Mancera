@@ -150,9 +150,9 @@ section{
     }
 
     .costumerJourney{
-        
+        padding: var(--margen-principal);
         img{
-            padding: var(--margen-principal);
+            
             width: 100%;
         }
 

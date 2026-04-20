@@ -348,7 +348,7 @@ footer p {
         width: 100%;
         grid-template-columns: 1fr;
             .portada{
-               width: 95%;
+               width: 50%;
             }
         .descripcion{
             padding: var(--margen-principal);
