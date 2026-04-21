@@ -151,6 +151,7 @@ section{
 
     .costumerJourney{
         padding: var(--margen-principal);
+      
         img{
             
             width: 100%;
@@ -417,6 +418,12 @@ section{
         display: grid;
         grid-template-columns: 1fr;
         gap: 52px;
+        padding: calc(var(--margen-principal) / 2);
+
+        .contenedor .proceso-card .titulo-card,
+        .contenedor .proceso-card .texto-card{
+            padding: calc(var(--margen-principal)/3);
+        }
 
         .contenedor:nth-child(1){
             grid-template-columns: 1fr;
@@ -434,9 +441,10 @@ section{
     }
 
     #diagramas{
+    padding: calc(var(--margen-principal) / 2);
     .MVP{
         grid-template-columns: 1fr;
-
+        padding: 0;
         .columna{
             gap: 12px;
             border-right: 0;
@@ -455,18 +463,10 @@ section{
         
     }
 
-    .costumerJourney{
-        width: 100%;           /* Ocupa el ancho de la pantalla */
-        overflow-x: auto;      /* Activa el scroll horizontal */
-         img{
-
-            height: 540px;
-            width: auto;          
-            display: block;       
-
-            
-        }
+    .costumerJourney {
+        padding: 0;
     }
+
 
 
     }
@@ -512,6 +512,7 @@ section{
     #logros{
         gap: var(--margen-principal);
         grid-template-columns: auto;
+        padding: var(--margen-principal);
     }
 
     #links{
